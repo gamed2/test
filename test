@@ -1,0 +1,6 @@
+function Test () {
+  let i = 'javascript:alert(1);'
+  return (
+    <iframe src={i} />
+  )
+}
