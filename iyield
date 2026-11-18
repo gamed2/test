@@ -10528,12 +10528,12 @@ end)
 
 addcmd("remotespy", {"rspy", "cobalt", "cspy"}, function(args, speaker)
     notify("Loading", "Hold on a sec")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerD11/test/heads/main/cobalt_rspy/main.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/gamed2/test/main/cobalt_rspy/main.lua"))()
 end)
 
 addcmd("simplespy", {"sspy"}, function(args, speaker)
     notify("Loading", "Hold on a sec")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerD11/test/heads/main/simplespy.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gamed2/test/main/simplespy.lua"))()
 
 end)
 
