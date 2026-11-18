@@ -423,7 +423,7 @@ function ErrorPrompt(Message,state)
     end
 end
 
-local Highlight = (isfile and loadfile and isfile("Highlight.lua") and loadfile("Highlight.lua")()) or loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerD11/test/refs/heads/main/Highlight.lua"))()
+local Highlight = (isfile and loadfile and isfile("Highlight.lua") and loadfile("Highlight.lua")()) or loadstring(game:HttpGet("https://raw.githubusercontent.com/gamed2/test/main/Highlight.lua"))()
 
 local SimpleSpy3 = Create("ScreenGui",{ResetOnSpawn = false})
 local Storage = Create("Folder",{})
